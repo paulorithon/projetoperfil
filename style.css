@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+main{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    width: 1050px;
+}
+
+.cinza, .azul, .vermelho{
+    padding: 5px;
+}
+
+.cinza{
+    background-color: gray;
+    width: 350px;
+}
+
+.azul{
+    background-color: blue;
+    width: 350px;
+}
+
+.vermelha{
+    background-color: red;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulos{
+    border: 1px solid white;
+}
